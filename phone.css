@@ -1,0 +1,80 @@
+html{
+    display: flex;
+    flex-direction: row;
+}
+.leftsection{
+    width: 100%;
+    
+}
+#intro{
+    position: relative;
+}
+.rightsection{
+    width: 100%;
+}
+.about{
+    position: relative;
+    display: flex;
+    width: 290px;
+}
+.about p{
+    margin-right: 100px;
+    width: 329px;
+    margin-left: -58px;
+}
+.navbar{
+    display: none;
+}
+.container{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+#main{
+    width: 353px;
+    margin-top: -85px;
+    margin-left: -10px;
+}
+.about h3{
+
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    width: 629px;
+}
+#clink{
+    height: 69px;
+    width: 69px;
+}
+.slogo1{
+    padding: 0%;
+    margin-right: 50px;
+    margin-left: -25px;
+    margin-top: 20px;
+}
+.skills1 h3{
+    margin-left: 60px;
+}
+.h-primary.center{
+    margin-left: 103px;
+}
+#skill{
+    margin-left: 75px;
+}
+#img1{
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+}
+.slogo{
+    font-size: x-small;
+    margin-right: 87px;
+}
+#services-container{
+    margin-top: -75px;
+}
+.bi bi-geo-alt{
+    margin-top: 0px;
+}
