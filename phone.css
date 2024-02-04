@@ -1,80 +1,75 @@
-html{
-    display: flex;
-    flex-direction: row;
-}
-.leftsection{
-    width: 100%;
-    
-}
-#intro{
-    position: relative;
-}
-.rightsection{
-    width: 100%;
-}
-.about{
-    position: relative;
-    display: flex;
-    width: 290px;
-}
-.about p{
-    margin-right: 100px;
-    width: 329px;
-    margin-left: -58px;
-}
-.navbar{
-    display: none;
-}
-.container{
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-#main{
-    width: 353px;
-    margin-top: -85px;
-    margin-left: -10px;
-}
-.about h3{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Square+Peg&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#services{
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
     display: flex;
     flex-direction: column;
-    width: 629px;
 }
-#clink{
-    height: 69px;
-    width: 69px;
+
+#intro {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
 }
-.slogo1{
-    padding: 0%;
-    margin-right: 50px;
-    margin-left: -25px;
-    margin-top: 20px;
+
+#main {
+    width: 100%;
 }
-.skills1 h3{
-    margin-left: 60px;
+
+.navbar {
+    border-radius: 0;
+    margin: 10px;
 }
-.h-primary.center{
-    margin-left: 103px;
+
+.about,
+.skills,
+.skills1 {
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
 }
-#skill{
-    margin-left: 75px;
+
+.slogo,
+.slogo1 {
+    text-align: center;
+    margin: 0 auto;
 }
-#img1{
-    height: 45px;
-    width: 45px;
-    padding: 5px;
+
+.slogo img,
+.slogo1 img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px auto;
 }
-.slogo{
-    font-size: x-small;
-    margin-right: 87px;
+
+.card-set,
+.language,
+.links {
+    margin: 10px;
 }
-#services-container{
-    margin-top: -75px;
+
+.lang {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
 }
-.bi bi-geo-alt{
-    margin-top: 0px;
+
+.copyright {
+    text-align: center;
+    margin: 10px;
+    font-size: 0.8rem;
 }
